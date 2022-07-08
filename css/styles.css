@@ -130,11 +130,21 @@ h3 {
     color: black;
     margin-top: 0;
 }
+.skill-entry {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 1rem;
+    white-space: pre;
+    color: black;
+    padding-left: 2rem;
+    margin-top: 0;
+}
 
 .skill-no:hover {
     color: #ff4c68;
+     -webkit-transform: scale(1.05);
+     -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
-
 
 /* Project */
 
@@ -187,6 +197,15 @@ h4 {
 
 .achievements-no:hover {
     color: #ff4c68;
+}
+.flex-container{
+     display: flex;
+}
+.flex-child {
+    flex: 1;
+}
+.flex-child:first-child {
+    margin-right: 20px;
 }
 
 
